@@ -116,5 +116,5 @@ window.addEventListener('DOMContentLoaded', event => {
     const averageSalary = (totalSalary / entryCount).toFixed(2);
   
     document.getElementById("averageSalary").textContent = 
-        `Number of Entries: ${entryCount}, Average Salary: $${averageSalary}`;
+        `Number of Entries: ${entryCount},  Average Salary: $${averageSalary}`;
   });
